@@ -8,12 +8,20 @@
 
 # The following shows how to override the mod_php5_apache2 packages:
 #
-#normal[:mod_php5_apache2][:packages] = [ 'php-xml',
-#                                         'php-common',
-#                                         'php-xmlrpc',
-#                                         'php-devel',
-#                                         'php-gd',
-#                                         'php-cli',
-#                                         'php-pear-Auth-SASL',
-#                                         'php-mysql',
-#                                         'php-mcrypt' ]
+normal[:mod_php5_apache2][:packages] = [ 'php-xml',
+                                         'php-common',
+                                         'php-xmlrpc',
+                                         'php-devel',
+                                         'php-gd',
+                                         'php-cli',
+                                         'php-pear-Auth-SASL',
+                                         'php-mysql',
+                                         'php-mcrypt',
+                                         'php5-gd',
+                                         'php-apc',
+                                         'php5-memcache',
+                                         'php5-mcrypt',
+                                         'php5-curl',
+                                         'php5-uuid',
+                                         'php5-imap'
+                                        ]
